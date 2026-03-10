@@ -43,7 +43,7 @@ class LogicGate:
         self.outputWire = None  # References the wire object
 
         # Graphics related
-        self.image = pygame.image.load("LogicGateImages/" + type + ".png")
+        self.image = pygame.image.load("logic_gate_images/" + type + ".png")
         self.position = position
 
         # I/O Pin's Positions

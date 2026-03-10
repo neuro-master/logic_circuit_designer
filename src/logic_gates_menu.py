@@ -34,7 +34,7 @@ class LogicGatesMenu():
 
         # Append the Logic Gate ImageButtons
         for i in range(len(LG_Types)):
-            LG_Image = pygame.image.load("LogicGateImages/" + LG_Types[i] + ".png")
+            LG_Image = pygame.image.load("logic_gate_images/" + LG_Types[i] + ".png")
             self.LG_ImageButtons.add(ImageButton(LG_Types[i], LG_Image, 0.8, (1070, 83.3*i + 50)))
     
     def Draw(self, screen):

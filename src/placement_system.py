@@ -81,7 +81,7 @@ class PlacementSystem:
         if menuLG_Clicked and self.placingLG == False:
             self.placingLG = True
             self.currentPlacingLG_Type = menuLG_Type
-            self.currentPlacingLG_Image = pygame.image.load("LogicGateImages/" + menuLG_Type + ".png")
+            self.currentPlacingLG_Image = pygame.image.load("logic_gate_images/" + menuLG_Type + ".png")
         
         # Finish placing Logic Gate
         isPlacingPointValid = mousePos[0] < 1050
