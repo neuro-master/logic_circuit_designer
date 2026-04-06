@@ -1,7 +1,7 @@
 # Logic Circuit Designer
 
 ## Introduction
-This project is a very simple logic gate simulation made in python for my school project. It uses pygame for the GUI support.
+This project is a very simple logic gate simulation made in python for my high school (grade 11) project. It uses pygame for the GUI support.
 
 It allows the user to drag and drop logic gates and inputs/outputs, make necessary connections and view the system state in real time as the inputs are altered.
 
@@ -26,8 +26,8 @@ It allows the user to drag and drop logic gates and inputs/outputs, make necessa
 ## Usage
 Make sure you have Python installed
 
-Install pygame (preferably in a virtual environment) with pip using:\
-`pip install pygame`
+Install pygame (community edition) (preferably in a virtual environment) with pip using:\
+`pip install pygame-ce`
 
 Run the main python file\
 `python src/main.py`
